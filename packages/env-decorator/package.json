@@ -29,7 +29,8 @@
     "build:rules": "tsc -p tsconfig.rules.json",
     "test": "jest",
     "test:cov": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepublish": "yarn run build"
   },
   "dependencies": {
     "ts-jest": "^26.1.0"
