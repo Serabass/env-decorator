@@ -4,8 +4,11 @@
 
 ## Usage
 
-```
-const envDecorator = require('env-decorator');
-
-// TODO: DEMONSTRATE API
+```typescript
+    import { envValue } from '@serabass/env-decorator';
+    
+    class ENV {
+        @envValue
+        public NODE_ENV: string;
+    }
 ```

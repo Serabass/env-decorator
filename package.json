@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
   "dependencies": {
     "@types/jest": "^26.0.0",
     "@types/node": "^14.0.13",
