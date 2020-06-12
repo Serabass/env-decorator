@@ -11,7 +11,7 @@
   "author": "Serabass <serabass565@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/env-decorator.js",
+  "main": "build/env-value.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

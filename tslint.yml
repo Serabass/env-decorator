@@ -1,0 +1,30 @@
+extends:
+  # - tslint-microsoft-contrib
+  # - tslint-config-prettier
+rules:
+  # mocha-no-side-effect-code: false
+  # missing-jsdoc: false
+  # no-relative-imports: false
+  # export-name: false
+  # promise-function-async: false
+  # no-void-expression: false
+  # no-redundant-jsdoc: false
+  # prefer-type-cast: false
+  # no-import-side-effect: false
+  # no-default-export: false
+  # function-name: false
+  # no-unnecessary-class: false
+  # no-null-keyword: false
+  # no-function-expression: false
+  # no-implicit-dependencies: false
+  # completed-docs: false
+  no-process-env: true
+  # no-console: false
+  typedef:
+    - true
+    - parameter
+    - arrow-parameter
+    - property-declaration
+    - member-variable-declaration
+rulesDirectory:
+  - tslint-rules
