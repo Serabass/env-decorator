@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "removeComments": true
+  },
+  "include": [
+    "tslint-rules/**/*"
+  ]
+}

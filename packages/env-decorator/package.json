@@ -1,0 +1,37 @@
+{
+  "name": "@serabass/env-decorator",
+  "version": "0.0.4",
+  "description": "A @envValue decorator",
+  "keywords": [
+    "env",
+    "decorator",
+    "ts",
+    "typescript"
+  ],
+  "author": "Serabass <serabass565@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/env-decorator.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "build:rules": "tsc -p tsconfig.rules.json",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "ts-jest": "^26.1.0"
+  }
+}
